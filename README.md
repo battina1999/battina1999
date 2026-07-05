@@ -66,6 +66,7 @@ in-memory for local dev and tests.
 ## 📫 Contact
 
 - 📧 **dhanushbattina09@gmail.com**
+- 📧 **battina1999@gmail.com**
 - 💼 [linkedin.com/in/dhanush-gopal-battina](https://www.linkedin.com/in/dhanush-gopal-battina)
 
 <p align="center"><i>Every project above runs with one command, is tested, cloud-portable, and ships with a written architecture + report.</i></p>
