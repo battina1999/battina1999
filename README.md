@@ -5,6 +5,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/dhanush-gopal-battina"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="mailto:dhanushbattina09@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white">
@@ -61,6 +66,6 @@ in-memory for local dev and tests.
 ## 📫 Contact
 
 - 📧 **dhanushbattina09@gmail.com**
-- 💼 LinkedIn: _add your profile link here_
+- 💼 [linkedin.com/in/dhanush-gopal-battina](https://www.linkedin.com/in/dhanush-gopal-battina)
 
 <p align="center"><i>Every project above runs with one command, is tested, cloud-portable, and ships with a written architecture + report.</i></p>
