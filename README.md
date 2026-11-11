@@ -6,6 +6,13 @@ I’m based in Denton, Texas, and looking for SQL, data engineering, analytics a
 
 [LinkedIn](https://www.linkedin.com/in/dhanush-gopal-battina/) · [Email](mailto:dhanushbattina09@gmail.com)
 
+## Where to start
+
+- **SQL, ETL and data quality:** [Settlement reconciliation](https://github.com/battina1999/settlement-reconciliation) — trace discrepancies to source rows and inspect late corrections using synthetic data.
+- **Analytics and reporting:** [Airline data platform](https://github.com/battina1999/airline-data-platform) — inspect KPI definitions, SQL models and route-performance results over public flight records.
+- **Applied AI and ML:** [Support Routing Lab](https://github.com/battina1999/support-routing-lab) — try the classifier and inspect the tradeoff between routing coverage and human review.
+- **Documentation retrieval:** [Data documentation search](https://github.com/battina1999/rag-data-docs-assistant) — compare retrieval methods and inspect unsupported-question behavior.
+
 ## Projects you can try
 
 These are independent portfolio projects, separate from my employer work. Each repository includes setup instructions, tests, and the assumptions behind its results.
