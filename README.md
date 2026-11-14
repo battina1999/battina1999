@@ -1,6 +1,6 @@
 # Dhanush Gopal Battina
 
-I work with SQL and Python on reporting pipelines and ML training data. At Virtusa, I’ve used Talend and Oracle for airline reporting. On a separate project, I prepared video and log data for model training, including near-duplicate detection and checks for underrepresented driving conditions.
+I build data pipelines and applied ML projects with Python and SQL. At Virtusa, I’ve used Talend and Oracle for airline reporting. On a separate project, I prepared video and log data for model training, including near-duplicate detection and checks for underrepresented driving conditions.
 
 I’m based in Denton, Texas, and looking for SQL, data engineering, analytics and applied AI roles in DFW or remote in the U.S.
 
@@ -8,6 +8,7 @@ I’m based in Denton, Texas, and looking for SQL, data engineering, analytics a
 
 ## Where to start
 
+- **Equipment telemetry and ML:** [Equipment Telemetry ML Lab](https://github.com/battina1999/equipment-telemetry-ml) — compare logistic regression and random forests for next-24-hour fault risk using synthetic refrigeration readings, later dates and unseen equipment.
 - **SQL, ETL and data quality:** [Settlement reconciliation](https://github.com/battina1999/settlement-reconciliation) — trace discrepancies to source rows and inspect late corrections using synthetic data.
 - **Analytics and reporting:** [Airline data platform](https://github.com/battina1999/airline-data-platform) — inspect KPI definitions, SQL models and route-performance results over public flight records.
 - **Applied AI and ML:** [Support Routing Lab](https://github.com/battina1999/support-routing-lab) — try the classifier and inspect the tradeoff between routing coverage and human review.
@@ -19,6 +20,7 @@ These are independent portfolio projects, separate from my employer work. Each r
 
 | Project | What to look at | Try it / source |
 | --- | --- | --- |
+| **Equipment Telemetry ML Lab** | Synthetic refrigeration telemetry, causal features, chronological and unseen-unit evaluation, a saved model, FastAPI inference and tests. Local experiment; no real equipment or Azure deployment claims. | [Code](https://github.com/battina1999/equipment-telemetry-ml) · [Model card](https://github.com/battina1999/equipment-telemetry-ml/blob/main/MODEL_CARD.md) |
 | **Settlement reconciliation** | SQL joins and control totals, late corrections, repeatable loads, and an exception queue with source evidence. All payment records are synthetic. | [Demo](https://battina1999.github.io/settlement-reconciliation/) · [Code](https://github.com/battina1999/settlement-reconciliation) |
 | **Support Routing Lab** | A trained text classifier, a held-out benchmark, and a review policy for uncertain tickets. Runs in your browser with no API key. | [Demo](https://battina1999.github.io/support-routing-lab/) · [Code](https://github.com/battina1999/support-routing-lab) |
 | **Airline data platform** | A dbt warehouse over 3.45 million public flight records, route analytics, and a departure-delay model evaluated on a later month. | [Dashboard](https://battina1999.github.io/airline-data-platform/) · [Code](https://github.com/battina1999/airline-data-platform) |
@@ -26,6 +28,8 @@ These are independent portfolio projects, separate from my employer work. Each r
 | **Streaming anomaly checks** | A synthetic event replay with five quality rules and SQL monitoring. Includes a separate Kafka/Spark console example. | [Code](https://github.com/battina1999/streaming-anomaly-pipeline) |
 
 ## A few results worth inspecting
+
+**Equipment telemetry:** I generated 23,040 synthetic readings from 48 simulated refrigeration units and compared logistic regression with a random forest. Model selection and the review threshold use a calibration split; tests cover later dates and 12 units excluded from fitting. The report separates false alarms from missed fault windows and explains why simulated results do not establish real-store performance. [Read the model card](https://github.com/battina1999/equipment-telemetry-ml/blob/main/MODEL_CARD.md).
 
 **Settlement reconciliation:** the synthetic scenario starts with **182 open checks**. Late records and corrections reduce that to **eight duplicate bookings** that still need review. Replaying the six source files imports **zero rows** and leaves the report unchanged. [Read the reconciliation SQL](https://github.com/battina1999/settlement-reconciliation/blob/main/sql/04_issues.sql).
 
