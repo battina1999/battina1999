@@ -2,7 +2,7 @@
 
 I build data pipelines and applied ML projects with Python and SQL. At Virtusa, I’ve used Talend and Oracle for airline reporting. On a separate project, I prepared video and log data for model training, including near-duplicate detection and checks for underrepresented driving conditions.
 
-I’m based in Denton, Texas, and looking for SQL, data engineering, analytics and applied AI roles in DFW or remote in the U.S.
+I’m based in Denton, Texas, and open to full-time data engineering, analytics, business analysis, or applied AI and ML roles across the U.S. I’m open to relocation and onsite, hybrid, or remote work.
 
 [LinkedIn](https://www.linkedin.com/in/dhanush-gopal-battina/) · [Email](mailto:dhanushbattina09@gmail.com)
 
